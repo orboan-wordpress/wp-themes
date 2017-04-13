@@ -1,0 +1,37 @@
+/*
+Theme Name: Twenty Seventeen Child
+Theme URI: http://example.com/twenty-seventeen-child/
+Description: Twenty Seventeen Child Theme
+Author: Oriol Boix
+Author URI: http://example.com
+Template: twentyseventeen
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain: twenty-seventeen-child
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Racing+Sans+One');
+
+h1, h2, .site-title a {
+    font-family: 'Racing Sans One', cursive;
+}
+
+.orb_iaw_front_page_title {
+    -webkit-text-stroke: 1px red;
+}
+
+#masthead {
+	display: flex;
+	flex-direction: column;
+}
+
+.navigation-top {
+    position: relative;
+    order: 1;
+}
+
+.custom-header {
+    order: 2;
+}
